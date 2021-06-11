@@ -6,7 +6,7 @@
     - name: httpd remove
       yum:
         name: httpd
-        state: apsent
+        state: absent
         
     - name: httpd reinstall
       yum:
